@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    background-image: linear-gradient(rgb(202, 59, 59), silver, green, lightblue);
+    height: 100vh;
+    text-align: center;
+  
+    
+  
+  }
+  label{
+    line-height: 60px;
+    font-size: large;
+    font-weight: bold;
+  }
+  input{
+    border-radius: 25px;
+    outline: none;
+    outline-offset: none;
+    border: none;
+    font-size: x-large;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(199, 255, 255, 0.999);
+  
+  }
+  label[for = "ipt2"]{
+    position: relative;
+    right: 20px;
+  }
+  #ipt2{
+    position: relative;
+    right: 20px;
+  }
+  button{
+    border: 20px solid transparent;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 25px;
+    width: 200px;
+    position: relative;
+    top: 25px;
+    cursor: pointer;
+    background-color: olivedrab;;
+  
+  }
+  button:hover{
+    background-color: rgba(0, 204, 204, 0.999);;
+    
+  
+  }
+  .Employees_data{
+  
+    display: flex;
+    flex-wrap: wrap;
+   
+  
+  }
+  .data{
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    padding:10px;
+   box-sizing: border-box;
+   margin: 20px;
+  }
+  .connect{
+    text-decoration: none;
+    color: black;
+  }
+  .complete{
+    background-image: linear-gradient(rgb(202, 59, 59), silver, green, lightblue);
+    height: 100vh;
+    text-align: center;
+  
+   
+    width: 100%;
+    height: 100vh;
+  
+  }
